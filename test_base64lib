@@ -1,0 +1,17 @@
+#!/usr/bin/as3shebang -- 
+
+import shell.*;
+
+var base64lib:* = Domain.currentDomain.load( "base64lib.abc" );
+trace( base64lib + " loaded" );
+
+import flash.utils.ByteArray;
+import encoding.base64.*;
+
+var str:String = "hello world";
+trace( "base64 of \"" + str + "\"" );
+// encoding functions
+var encoded:String = encodeBase64( str );
+var decoded:String = decodeBase64( encoded );
+trace( " base64 = " + encoded );
+trace( "  clear = " + decoded );
