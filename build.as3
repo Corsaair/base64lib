@@ -1,0 +1,11 @@
+import redbean.*;
+import shell.FileSystem;
+
+compile( "src/base64lib.as" );
+
+if( FileSystem.exists( "base64lib.abc" ) )
+{
+	FileSystem.removeFile( "base64lib.abc" );
+}
+
+FileSystem.move( "src/base64lib.abc", "base64lib.abc" );

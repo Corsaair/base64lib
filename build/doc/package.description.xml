@@ -1,0 +1,27 @@
+<overviews>
+	<all-packages>
+		<description><![CDATA[
+			The &lt;b&gt;Base64&lt;/b&gt; library.&lt;br&gt;
+			&lt;br&gt;
+			Base64 is a group of similar binary-to-text encoding schemes that
+			represent binary data in an ASCII string format by translating it
+			into a radix-64 representation.
+			&lt;br&gt;
+			&lt;br&gt;
+			The term Base64 originates from a specific MIME content transfer encoding.
+			&lt;br&gt;
+			&lt;br&gt;
+			&lt;a href="https://github.com/Corsaair/base64lib/wiki" target="_blank"&gt;Wiki Documentation&lt;/a&gt;
+		]]></description>
+	</all-packages>
+	<packages>
+
+		<package name="encoding.base64" >
+			<shortDescription><![CDATA[The base64 library.]]></shortDescription>
+			<description><![CDATA[
+				All classes, functions, etc. for encoding / decoding in Base64.
+			]]></description>
+		</package>
+
+	</packages>
+</overviews>
